@@ -1,0 +1,41 @@
+/* Write your CSS code here */
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.nav-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-logo {
+  width: 50px;
+}
+.nav-heading {
+  color: blue;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  margin-left: 20px;
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex: 1;
+  max-width: 400px;
+  align-items: center;
+  list-style-type: none;
+  padding: 0px;
+}
+.nav-link {
+  text-decoration: none;
+  color: #12022f;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-left: 20px;
+  margin-right: 20px;
+}

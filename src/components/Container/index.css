@@ -1,0 +1,16 @@
+.container {
+  margin-top: 85px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 70vh;
+}
+.heading {
+  color: #551e53;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-top: 30px;
+}
